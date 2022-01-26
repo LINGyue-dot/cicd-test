@@ -28,7 +28,7 @@ jobs:
           npm run build
         env:
           CI: true
-      # Deploy 
+      # Deploy
       - name: Deploy
         uses: easingthemes/ssh-deploy@main
         env:
